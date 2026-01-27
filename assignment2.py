@@ -6,7 +6,6 @@ def zander():
         print("A zander must be 42 centimeters or longer to meet the size limit.")
     else:
         print("You can take the fish home.")
-#zander()
 
 def carbin_class():
     a = input("Enter the cabin class of a cruise ship: ")
@@ -20,7 +19,6 @@ def carbin_class():
         print("Windowless cabin below the car deck.")
     else:
         print("Invalid carbin class.")
-#carbin_class()
 
 def value(x, y):
     z = int(input("Enter hemoglobin value (g/l): "))
@@ -42,7 +40,6 @@ def hemoglobin():
             a = False
         else:
             print("Invalid biological sex, please rewrite")
-#hemoglobin()
 
 def leap_year():
     a = int(input("Enter the year: "))
@@ -50,7 +47,6 @@ def leap_year():
         print("This is a leap year")
     else:
         print("This is not a leap year")
-#leap_year()
 
 import math
 def cal(x):
@@ -65,4 +61,5 @@ def com():
         print("The first pizza provides better value for money")
     else:
         print("The second pizza provides better value for money")
+
 com()
